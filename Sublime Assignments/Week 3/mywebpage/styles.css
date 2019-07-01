@@ -1,0 +1,47 @@
+body {
+	background-image: url("http://i.imgur.com/jdEJfFV.png");
+	background-repeat: repeat;
+}
+
+.start_box {
+	border-style: solid;
+	border-width;
+	padding: 20px;
+}
+
+.wrapper{
+	width: 960px;
+	background-color: #ffebcc;
+	margin: 0 auto;
+}
+
+header {
+	background-color: #F6AB44;
+}
+img{
+	float: left;
+	margin-left: 30px;
+}
+nav {
+	background-color: #ffcc80;
+} 
+nav li{
+	display: inline-block;
+	margin: 0px 20px;
+}
+section{
+	float: left;
+	width: 598px;
+	height: 243px;
+	border-bottom: 0px;
+	background-color: #ffebcc;
+}
+aside{
+	float: left;
+	width: 272px;
+	background-color: #ffebcc;
+}
+footer{
+	clear: left;
+	background-color: #ffebcc;
+}

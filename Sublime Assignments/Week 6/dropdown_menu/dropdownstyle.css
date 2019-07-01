@@ -1,0 +1,43 @@
+nav{
+	background-color: tan;
+}
+nav ul{
+	list-style: none; /*removes the UL bullets*/
+	text-align: left; /*ensures left aligned no matter what the parent
+	uses*/
+	display: inline; /*stacks all the line items into one list*/
+	padding: 15px 4px; /*15 pixels top and bottom, 4 pixels left
+	and right*/
+	box-shadow: 0 0 5px rgba(0,0,0,0.15); /*just a shadow
+	that is black but half translucent*/
+}
+nav ul li{
+	display: inline-block; /*changes li from block to inline-block*/
+	padding: 15px 20px;
+	background-color: tan;
+	position: relative;
+	margin-right: -4px;
+}
+nav ul li:nth-child(3){
+	padding-right: 45px;
+}
+nav ul li ul{
+	position: absolute;
+	top: 48px; /*48 pixels down from the top of the browser window*/
+	left: 0px; /*zero pixels from it's current location*/
+	background-color: tan; /*this evens out the background of the 
+	dropdown*/
+	display: none; /*this makes the dropdown menu disappear*/
+}
+nav ul li:hover ul{
+	display: block; /*changes from display: none; to display: block;*/
+}
+nav ul li a{
+	display: block;
+	text-decoration: none;
+	color: black;
+	font-size: 1.5em;
+}
+nav ul li:hover{
+	background-color: white;
+}
